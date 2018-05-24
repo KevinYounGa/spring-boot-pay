@@ -10,6 +10,7 @@ public class Product implements Serializable {
 	private String productId;// 商品ID
 	private String subject;//订单名称 
 	private String body;// 商品描述
+
 	private String totalFee;// 总金额(单位是分)
 	private String outTradeNo;// 订单号(唯一)
 	private String spbillCreateIp;// 发起人IP地址
