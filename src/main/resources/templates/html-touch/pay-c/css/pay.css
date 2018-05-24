@@ -1,0 +1,230 @@
+/*支付宝支付*/
+
+.pay-tips {
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  color: #fff;
+  text-align: center;
+  background-color: #0aa6e8;
+}
+
+.payWay .payWay-desc {
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  color: #666666;
+  padding: 0.133333rem 0.266667rem;
+  background-color: #fff;
+  border-bottom: #e5e5e5 1px solid;
+  margin-bottom: 0.266667rem;
+}
+
+.payWay .payWay-btn {
+  padding: 0.293333rem 0.266667rem 0 0.266667rem;
+}
+
+.payWay .btn-su {
+  width: 100%;
+  display: inline-block;
+  font-size: 0.453333rem;
+}
+
+/*现金支付*/
+
+.inpuCash {
+  padding-bottom: 0.4rem;
+}
+
+.inpuCash input {
+  border: none;
+  background-color: #eeeeee;
+  float: left;
+  width: 70%;
+}
+
+.inpuCash .sure {
+  width: 1.2rem;
+  height: 0.826667rem;
+  text-align: center;
+  line-height: 0.826667rem;
+  background-color: #eeeeee;
+  display: inline-block;
+  -webkit-border-radius: 0.066667rem;
+  border-radius: 0.066667rem;
+  font-size: 0.4rem;
+  color: #666666;
+}
+
+/*支付成功*/
+
+.pay-successTip {
+  height: 1.186667rem;
+  line-height: 1.186667rem;
+  padding: 0 0.266667rem;
+  color: #e83437;
+  font-size: 0.4rem;
+}
+
+.pay-successTip .fi-gou {
+  display: inline-block;
+  width: 0.533333rem;
+  height: 0.533333rem;
+  text-align: center;
+  line-height: 0.533333rem;
+  background-color: #e83437;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 0.16rem;
+  font-size: 0.373333rem;
+}
+
+.pay-success .total {
+  font-size: 0.64rem;
+  height: 2.64rem;
+  line-height: 2.64rem;
+  border-bottom: #e5e5e5 1px solid;
+}
+
+.pay-success .items {
+  padding: 0.266667rem 0;
+}
+
+.pay-success .item {
+  line-height: 0.693333rem;
+}
+
+.pay-success .item .name {
+  font-size: 0.4rem;
+  color: #666;
+}
+
+.pay-success .item .desc {
+  color: #999;
+  font-size: 0.32rem;
+  text-align: right;
+}
+
+/***************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+====================================================================================================
+* @ description: payPage
+* @ update: 2018.05.08
+====================================================================================================
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************/
+
+/***************************************
+* name: common
+* tips: 公用
+****************************************/
+
+body {
+  background: #f6f6f6;
+}
+
+.header {
+  border-bottom: 1px solid #eaeaea;
+}
+
+/***************************************
+* name: module-payType
+* tips: 支付类型
+****************************************/
+
+.pagePay .module-payType .dataItem-head .fi {
+  font-size: 1.066667rem;
+  vertical-align: -0.466667rem;
+}
+
+.pagePay .module-payType .dataItem-head .fi-wx {
+  color: #00c800;
+}
+
+.pagePay .module-payType .dataItem-head .fi-xj {
+  color: #f59b0e;
+}
+
+.pagePay .module-payType .dataItem-main .title {
+  font-size: 0.426667rem;
+}
+
+.pagePay .module-payType .dataItem-main .des {
+  color: #999;
+}
+
+/***************************************
+* name: alertTipsSetPass
+* tips: 设置密码提示
+****************************************/
+
+.alertTipsSetPass {
+  width: 8rem;
+  margin-left: -4rem;
+  margin-top: -1.333333rem;
+}
+
+.alertTipsSetPass .title {
+  padding: 0.266667rem;
+  text-align: center;
+}
+
+/***************************************
+* name: alertBalancePay
+* tips: 余额支付
+****************************************/
+
+.alertBalancePay {
+  width: 8rem;
+  margin-left: -4rem;
+  margin-top: -4rem;
+}
+
+.alertBalancePay .title {
+  padding: 0 0.266667rem 0.266667rem 0.266667rem;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.alertBalancePay .nunmber-pay {
+  font-size: 0.96rem;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0.266667rem 0;
+}
+
+.alertBalancePay .nunmber-balance {
+  font-size: 0.426667rem;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0.4rem 0;
+  margin-bottom: 0.4rem;
+}
+
+.alertBalancePay .nunmber-balance .fi {
+  color: #ec981f;
+  font-size: 0.4rem;
+}
+
+.alertBalancePay .inputContainer .fui-input {
+  -webkit-border-radius: 0.066667rem;
+  border-radius: 0.066667rem;
+  letter-spacing: 0.266667rem;
+}
+
+.alertBalancePay .action {
+  text-align: right;
+  padding-top: 0.266667rem;
+}
+
+.alertBalancePay .action .aItem {
+  font-size: 0.346667rem;
+  color: #999;
+}
+
+.alertBalancePay .fi-close {
+  position: absolute;
+  right: 0.266667rem;
+  top: 0.333333rem;
+  font-size: 0.533333rem;
+}

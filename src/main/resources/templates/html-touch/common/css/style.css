@@ -1,0 +1,163 @@
+/*布局*/
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-bottom: 1.306667rem;
+}
+
+.main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 1.306667rem;
+}
+
+/*lists*/
+
+.lists {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.lists .item>a {
+  display: block;
+}
+
+.lists .item {
+  display: inline-block;
+}
+
+.lists .item:last-child {
+  border: none;
+}
+
+.lists .item .item-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.lists .item .item-img>.imgs {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.lists .item .title {
+  font-size: 0.373333rem;
+  color: #333;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.lists .item .price {
+  font-size: 0.346667rem;
+  color: #b5262d;
+}
+
+.lists .item .del {
+  font-size: 0.32rem;
+  color: #999;
+}
+
+/*标签类*/
+
+.icon-box {
+  display: inline-block;
+  padding-right: 0.133333rem;
+  height: 0.64rem;
+  border: 1px solid #cdb694;
+  -webkit-border-radius: 0.053333rem;
+  border-radius: 0.053333rem;
+}
+
+.icon-box .icon {
+  display: inline-block;
+  background: #cdb694;
+  width: 0.64rem;
+  height: 0.64rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.icon-box .icon .fi {
+  font-size: 0.666667rem;
+  color: #fff;
+  line-height: 0.666667rem;
+}
+
+.icon-box .txt {
+  font-size: 0.32rem;
+  color: #666;
+  vertical-align: middle;
+}
+
+.label-box {
+  display: inline-block;
+  padding: 0 0.133333rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  background: #cdb694;
+  -webkit-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+  text-align: center;
+}
+
+.label-box .txt {
+  font-size: 0.293333rem;
+  color: #fff;
+}
+
+.label-shu {
+  white-space: nowrap;
+  margin-left: 0.266667rem;
+}
+
+.label-shu .txt {
+  font-size: 0.24rem;
+  color: #666;
+}
+
+.label-shu.txt:after {
+  content: '';
+  display: inline-block;
+  width: 0.013333rem;
+  height: 0.24rem;
+  background: #666;
+  vertical-align: -0.026667rem;
+  margin-left: 0.066667rem;
+}
+
+.label-shu .txt:last-child:after {
+  display: none;
+}

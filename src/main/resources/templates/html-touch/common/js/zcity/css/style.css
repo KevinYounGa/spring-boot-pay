@@ -1,0 +1,202 @@
+/***************************************
+* name: reset
+* tips: 浏览器重置
+****************************************/
+
+body {
+  font: 0.186667rem/1 "microsoft yahei", Tahoma, Arial, Helvetica,Sans-serif;
+  color: #333;
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table td {
+  vertical-align: middle;
+  border: none;
+}
+
+img {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+i,
+em {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.186667rem;
+}
+
+li {
+  list-style: none;
+}
+
+input[type=submit],
+button,
+input[type=button] {
+  cursor: pointer;
+}
+
+input,
+select,
+button,
+textarea {
+  line-height: normal;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: "microsoft yahei",Tahoma,Arial,Helvetica,Sans-serif;
+  color: #333;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #eb7d23;
+}
+
+/*scrollbar 谷歌浏览器滚动条样式设置*/
+
+::-webkit-scrollbar {
+  width: 0.213333rem;
+  height: 0.213333rem;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 13.32rem;
+  border-radius: 13.32rem;
+  border: 0.053333rem solid transparent;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 0.013333rem 0.013333rem 0.066667rem rgba(185,165,150,.2) inset;
+  box-shadow: 0.013333rem 0.013333rem 0.066667rem rgba(185,165,150,.2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 0.266667rem;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  -webkit-box-shadow: 0 0 0 0.066667rem rgba(185,165,150,1) inset;
+  box-shadow: 0 0 0 0.066667rem rgba(185,165,150,1) inset;
+}
+
+::-webkit-scrollbar-corner {
+  /*background:transparent;*/
+}
+
+/****************************************
+* name:demoTable
+* tips:案例
+****************************************/
+
+.demoTable {
+  width: auto;
+}
+
+.demoTable th {
+  padding: 0.133333rem;
+  text-align: left;
+}
+
+.demoTable td {
+  padding: 0.133333rem;
+}
+
+.demoTable .td-01 {
+  width: 1.333333rem;
+}
+
+.demoTable .td-01 .zcityItem {
+  width: 100%;
+  margin-left: 0;
+}
+
+.demoTable .td-02 {
+  width: 1.333333rem;
+}
+
+.demoTable .td-02 .zcityItem {
+  width: 100%;
+  margin-left: 0;
+}
+
+.demoTable .td-03 {
+  width: 1.333333rem;
+}
+
+.demoTable .td-03 .zcityItem {
+  width: 100%;
+  margin-left: 0;
+}
+
+.demoTable .td-04 {
+  width: 4rem;
+}
+
+.demoTable .td-05 {
+  width: 2.666667rem;
+}
+
+.demoTable .td-05 .zcityItem {
+  width: 49%;
+  margin-left: 0;
+}
+
+.demoTable .td-06 {
+  width: 5.333333rem;
+}
+
+.demoTable .td-06 .zcityItem {
+  width: 25%;
+  margin-left: 0;
+}
